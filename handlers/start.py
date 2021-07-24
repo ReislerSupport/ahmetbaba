@@ -10,9 +10,6 @@ from config import BOT_NAME as bn
 async def start(_, message: Message):
     await message.reply_text(
         f"""Merhaba👋 Telegram Gruplarının sesli sohbetlerinde müzik çalabiliyorum.
-        Telegram gruplarının sesli sohbetlerinde müzik çalmamı ister misin?
-        Beni nasıl kullanabileceğinizi öğrenmek için lütfen aşağıdaki
-        '📜 Kullanım Kılavuzu 📜' düğmesini tıklayın.
         Grubunuzun sesli sohbetinde müzik çalabilmek için Asistanın grubunuzda olması gerekir.""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -21,7 +18,7 @@ async def start(_, message: Message):
                         "📜 Kullanım Kılavuzu 📜", url="https://t.me/avcilarbot")
                   ],[
                     InlineKeyboardButton(
-                        "👨‍💻 Güncellemeler 👨‍💻", url="https://t.me/avcilarsupport"
+                        "🥳 Asistan 🥳", url="https://t.me/avcimusicasistan"
                     )
                 ],[ 
                     InlineKeyboardButton(
