@@ -10,7 +10,7 @@ from config import BOT_NAME as bn
 async def start(_, message: Message):
     await message.reply_text(
         f"""Merhaba👋 Telegram Gruplarının sesli sohbetlerinde müzik çalabiliyorum.
-        Grubunuzun sesli sohbetinde müzik çalabilmek için Asistanın grubunuzda olması gerekir.""",
+    Grubunuzun sesli sohbetinde müzik çalabilmek için Asistanın grubunuzda olması gerekir.""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
