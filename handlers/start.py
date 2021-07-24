@@ -32,7 +32,7 @@ async def start(_, message: Message):
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("test") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**🔴 Müzik Oynatıcı Aktif**""",
       reply_markup=InlineKeyboardMarkup(
