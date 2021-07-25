@@ -6,7 +6,7 @@ More Serenity Bots = [@SohbetCilginlariBotlar](https://t.me/SohbetCilginlariBotl
 
 <h3 align="centre"> Heroku </h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cancinconntg/SohbetCilginlariMuzik)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/intikatimi/excertus)
 
 STRING_NAME ;
 
