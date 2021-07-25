@@ -31,12 +31,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("test") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**🔴 Müzik Oynatıcı Aktif**""",
+      await message.reply_text("""**🔴 @İNTİKAMTİMİİ**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Destek Grubu 🎙️", url="https://t.me/avcilarsupport")
+                        "🎙️ Destek Grubu 🎙️", url="https://t.me/intikamtimii")
                 ]
             ]
         )
