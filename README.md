@@ -1,12 +1,12 @@
-<h1 align="centre">🎶 Sohbet Çılgınları Music Bot 🎶</h1>
+<h1 align="centre">🎶 REİSLER MUZİK V2 Bot 🎶</h1>
 
-Support Group = [@SohbetMuzikDestek](https://t.me/SohbetMuzikDestek)
+Support Group = [@ReislerSupport](https://t.me/ReislerSupport)
 
-More Serenity Bots = [@SohbetCilginlariBotlar](https://t.me/SohbetCilginlariBotlar)
+More Serenity Bots = [@ReislerKanal](https://t.me/ReislerKanal)
 
 <h3 align="centre"> Heroku </h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/intikatimi/excertus)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReislerSupport/ahmetbaba)
 
 STRING_NAME ;
 
