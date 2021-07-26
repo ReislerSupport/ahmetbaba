@@ -15,14 +15,14 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Kullanım Kılavuzu 📜", url="https://t.me/avcilarbot")
+                        "📜 Kullanım Kılavuzu 📜", url="https://t.me/ReislerMuzik2bot")
                   ],[
                     InlineKeyboardButton(
-                        "🥳 Asistan 🥳", url="https://t.me/avcimusicasistan"
+                        "🥳 Asistan 🥳", url="https://t.me/ReislerAsistan"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Destek Grubu 🎙️", url="https://t.me/avcilarsupport"
+                        "Destek Grubu 🎙️", url="https://t.me/ReislerSupport"
                     )]
             ]
         ),
@@ -31,12 +31,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("test") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**🔴 @İNTİKAMTİMİİ**""",
+      await message.reply_text("""**🔴 @kizilsancak**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Destek Grubu 🎙️", url="https://t.me/intikamtimii")
+                        "🎙️ Destek Grubu 🎙️", url="https://t.me/ReislerSupport")
                 ]
             ]
         )
